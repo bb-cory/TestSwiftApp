@@ -68,6 +68,8 @@ class TimerDetailViewController: UIViewController {
     }
 
     func startTimer() {
+        fatalError()
+        
         navigationItem.rightBarButtonItem?.isEnabled = false
         navigationItem.setHidesBackButton(true, animated: true)
         startStopButton.setTitle(NSLocalizedString("Stop", comment: "Stop button title"), for: UIControlState())
