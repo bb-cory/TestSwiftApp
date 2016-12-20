@@ -465,6 +465,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"~/Downloads",
 				);
 				INFOPLIST_FILE = "Coffee Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
@@ -485,6 +486,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"~/Downloads",
 				);
 				INFOPLIST_FILE = "Coffee Timer/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
