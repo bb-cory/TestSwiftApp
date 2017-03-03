@@ -23,6 +23,7 @@
 		5EC113C01BAF192500CCE373 /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC113BE1BAF192500CCE373 /* TimerModel.swift */; };
 		5EC4B57B1A61457600792B2B /* TimerListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC4B57A1A61457600792B2B /* TimerListTableViewController.swift */; };
 		78058C500C860A72A1D1AEFC /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77F561956FC2E13A76CE37C /* BuddyBuildSDK.framework */; };
+		846C009D1E69DE2A0001A6CB /* Coffee_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C009C1E69DE2A0001A6CB /* Coffee_TimerUITests.swift */; };
 		AD3D332A67F1F100AD498249 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80ACF65B88D12C8CBD72946D /* QuartzCore.framework */; };
 		B36908DEBEEB8CF5E80CF8BC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF4DDE9F4C40A5EB5EEAB39 /* CoreText.framework */; };
 		E0E10A1F86F76D4E0FE8B347 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C8DEAC6AA10C20530B8796 /* SystemConfiguration.framework */; };
@@ -34,6 +35,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		5E1F8CF019839CB100A83E4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1F8CD519839CB000A83E4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1F8CDC19839CB000A83E4F;
+			remoteInfo = "Coffee Timer";
+		};
+		846C009F1E69DE2A0001A6CB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E1F8CD519839CB000A83E4F /* Project object */;
 			proxyType = 1;
@@ -67,6 +75,9 @@
 		5EC113BE1BAF192500CCE373 /* TimerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TimerModel.swift; path = ../TimerModel.swift; sourceTree = "<group>"; };
 		5EC4B57A1A61457600792B2B /* TimerListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerListTableViewController.swift; sourceTree = "<group>"; };
 		80ACF65B88D12C8CBD72946D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		846C009A1E69DE2A0001A6CB /* Coffee TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		846C009C1E69DE2A0001A6CB /* Coffee_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_TimerUITests.swift; sourceTree = "<group>"; };
+		846C009E1E69DE2A0001A6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B443B3745C95F180F1774B1 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		AEF4DDE9F4C40A5EB5EEAB39 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		C7C6A1FD5151838891B401C3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -100,6 +111,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		846C00971E69DE2A0001A6CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -124,6 +142,7 @@
 			children = (
 				5E1F8CDF19839CB000A83E4F /* Coffee Timer */,
 				5E1F8CF219839CB100A83E4F /* Coffee TimerTests */,
+				846C009B1E69DE2A0001A6CB /* Coffee TimerUITests */,
 				5E1F8CDE19839CB000A83E4F /* Products */,
 				4E502EAC85770DA800578F56 /* Frameworks */,
 				EA9E9A37D99BC3D599B610E2 /* Bridging-Header.h */,
@@ -135,6 +154,7 @@
 			children = (
 				5E1F8CDD19839CB000A83E4F /* Coffee Timer.app */,
 				5E1F8CEF19839CB100A83E4F /* Coffee TimerTests.xctest */,
+				846C009A1E69DE2A0001A6CB /* Coffee TimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,6 +221,15 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		846C009B1E69DE2A0001A6CB /* Coffee TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				846C009C1E69DE2A0001A6CB /* Coffee_TimerUITests.swift */,
+				846C009E1E69DE2A0001A6CB /* Info.plist */,
+			);
+			path = "Coffee TimerUITests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,6 +268,24 @@
 			productReference = 5E1F8CEF19839CB100A83E4F /* Coffee TimerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		846C00991E69DE2A0001A6CB /* Coffee TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846C00A31E69DE2A0001A6CB /* Build configuration list for PBXNativeTarget "Coffee TimerUITests" */;
+			buildPhases = (
+				846C00961E69DE2A0001A6CB /* Sources */,
+				846C00971E69DE2A0001A6CB /* Frameworks */,
+				846C00981E69DE2A0001A6CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				846C00A01E69DE2A0001A6CB /* PBXTargetDependency */,
+			);
+			name = "Coffee TimerUITests";
+			productName = "Coffee TimerUITests";
+			productReference = 846C009A1E69DE2A0001A6CB /* Coffee TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -246,7 +293,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 0700;
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Ash Furrow";
 				TargetAttributes = {
@@ -258,6 +305,12 @@
 					5E1F8CEE19839CB100A83E4F = {
 						CreatedOnToolsVersion = 6.0;
 						LastSwiftMigration = 0810;
+						TestTargetID = 5E1F8CDC19839CB000A83E4F;
+					};
+					846C00991E69DE2A0001A6CB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L4FET847JL;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 5E1F8CDC19839CB000A83E4F;
 					};
 				};
@@ -278,6 +331,7 @@
 			targets = (
 				5E1F8CDC19839CB000A83E4F /* Coffee Timer */,
 				5E1F8CEE19839CB100A83E4F /* Coffee TimerTests */,
+				846C00991E69DE2A0001A6CB /* Coffee TimerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +350,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5E1F8CED19839CB100A83E4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846C00981E69DE2A0001A6CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,6 +389,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		846C00961E69DE2A0001A6CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				846C009D1E69DE2A0001A6CB /* Coffee_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -335,6 +404,11 @@
 			isa = PBXTargetDependency;
 			target = 5E1F8CDC19839CB000A83E4F /* Coffee Timer */;
 			targetProxy = 5E1F8CF019839CB100A83E4F /* PBXContainerItemProxy */;
+		};
+		846C00A01E69DE2A0001A6CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1F8CDC19839CB000A83E4F /* Coffee Timer */;
+			targetProxy = 846C009F1E69DE2A0001A6CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -534,6 +608,42 @@
 			};
 			name = Release;
 		};
+		846C00A11E69DE2A0001A6CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = "Coffee TimerUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buddybuild.Coffee-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Coffee Timer";
+			};
+			name = Debug;
+		};
+		846C00A21E69DE2A0001A6CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = L4FET847JL;
+				INFOPLIST_FILE = "Coffee TimerUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.buddybuild.Coffee-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Coffee Timer";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -560,6 +670,15 @@
 			buildConfigurations = (
 				5E1F8CFD19839CB100A83E4F /* Debug */,
 				5E1F8CFE19839CB100A83E4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846C00A31E69DE2A0001A6CB /* Build configuration list for PBXNativeTarget "Coffee TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				846C00A11E69DE2A0001A6CB /* Debug */,
+				846C00A21E69DE2A0001A6CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -68,7 +68,7 @@ class TimerDetailViewController: UIViewController {
     }
 
     func startTimer() {
-        fatalError()
+        //fatalError()
         
         navigationItem.rightBarButtonItem?.isEnabled = false
         navigationItem.setHidesBackButton(true, animated: true)

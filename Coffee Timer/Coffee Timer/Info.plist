@@ -36,5 +36,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>BUDDYBUILD_SETTING_ENABLE_CRASH_REPORTING</key>
+	<integer>1</integer>
+	<key>BUDDYBUILD_BUILD_ID</key>
+	<string>BUILD_ID</string>
+	<key>BUDDYBUILD_ENDPOINT</key>
+	<string>some.url</string>
 </dict>
 </plist>
